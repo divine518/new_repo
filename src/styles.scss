@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+.bg-img
+{
+    background-image: url('/assets/images/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.bg3-img
+{
+    background-image: url('/assets/images/3.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.bgAbout-img
+{
+    background-image: url('/assets/images/6.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.mat-card
+{
+    height:500px
+}
+.header
+{
+    background-color: blueviolet;
+    height:30px;
+    
+}
