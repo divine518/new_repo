@@ -1,0 +1,29 @@
+<!-- Chart Component -->
+<mat-card style="height:550px;">
+<!-- 
+     <input
+  style="display: none"
+  type="file" (change)="onFileChanged($event)"
+  #fileInput>
+<button (click)="fileInput.click()">Select File</button>
+<button (click)="onUpload()">Upload!</button>
+Received Image:
+
+{{ receivedImageData['pic'] | json}}
+<img [src]="convertedImage" >
+      </mat-card> -->
+      <div>
+        <input type="file" (change)="onFileChanged($event)">
+    
+        <img [src]="imgURL" height="200" *ngIf="imgURL">
+    </div>
+    
+    <input type="button" (click)="onUpload()" value="upload">
+    
+    <hr />
+    
+    <!-- Received Image:
+    
+    {{ receivedImageData['pic'] | json}} -->
+    <img [src]="convertedImage" >
+    
